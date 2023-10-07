@@ -22,7 +22,7 @@ const SobreMi = () => {
                             <button className="botonHereMe">Aquí Yo</button>
                         </div>
                         <div className="boton-container">
-                            <button className="botonDownload">Descarga</button>
+                            <button className="botonDownload">Descarga </button>
                         </div>
                     </div>
                 </div>
