@@ -14,7 +14,7 @@ const SobreMi = () => {
                         <p>
                             Soy un desarrollador web Front-End de Misiones, Argentina.
                             Actualmente estoy cursando el Bootcam Front-End del Silicon Misiones. Cada día adquiero nuevos conocimientos
-                            y habilidades para así brindar un mejor servicio en el área.<br /><br />También me estoy capacitando en el manejo del inglés,
+                            y habilidades para brindar así un mejor servicio en el área.<br /><br />También me estoy capacitando en el manejo del inglés,
                             uno de los idiomas mas demandado en estos tiempos. Además, cuento con gran conocimiento en el
                             campo de la informatica. En la sección "Proyectos" puedes ver algunos de mis ultimos trabajos.
                         </p>
