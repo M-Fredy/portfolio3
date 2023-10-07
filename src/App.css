@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+:root {
+    --font-family-1:'Raleway', sans-serif;
+    --font-family-2: "Leckerli One", cursive;
+    --primer-color: #01354d;
+    --segundo-color: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tituloSeccion {
+    color: var(--primer-color);
+    text-align: center;
+    margin-top: 110px;
+    font-size: 30px;
+    font-family: var(--font-family-1);
+    font-size: 20px;
+}
+
+@media screen and (max-width: 920px) {
+    .tituloSeccion {
+        max-width: 33rem;
+    }
+}

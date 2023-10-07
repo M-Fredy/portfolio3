@@ -1,0 +1,25 @@
+.cajaTrabajos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0 100px 12px;
+    margin-top: 50px;
+    margin: 100px;
+}
+
+.trabajo img {
+    margin: 10px;
+    width: 92%;
+}
+
+@media screen and (max-width: 920px) {
+    .cajaTrabajos {
+        display: inline-block;
+    }
+
+    img {
+        width: 300px;
+        margin: 0;
+        padding: 0;
+    }
+}

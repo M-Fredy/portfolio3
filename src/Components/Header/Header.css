@@ -1,0 +1,130 @@
+Header {
+    background-color: var(--primer-color);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.7rem 6.4rem;
+    box-sizing: border-box;
+    box-shadow: 0 1px 3px rgba(255, 255, 255, 0.2);
+}
+
+header h1 {
+    font-size: 37px;
+    color: var(--segundo-color);
+    font-family: var(--font-family-2);
+    font-weight: 100;
+}
+
+.nav-list {
+    font-family: 'Raleway', sans-serif;
+    list-style-type: none;
+    display: flex;
+    gap: 5rem;
+    padding-right: 80px;
+    font-size: 18px;
+    font-weight: 600
+}
+
+/* .botonBuyNow {
+    padding: 15px 35px;
+    background-color: var(--primer-color);
+    color: #fff;
+    border: 2px solid var(--segundo-color);
+    cursor: pointer;
+    font-size: 18px;
+    
+}
+.botonBuyNow:hover {
+    background-color: #fff;
+    color: black;
+} */
+
+.nav-list li a {
+    text-decoration: none;
+    color: var(--segundo-color);
+}
+
+.nav-list li a:hover {
+    color: var(--segundo-color);
+    border-bottom: 2px solid var(--segundo-color);
+}
+
+.abrir-menu,
+.cerrar-menu {
+    display: none;
+}
+
+/* RESPONSIVE */
+@media (max-width: 920px) {
+    .Header {
+        margin: 0;
+        padding: 0;
+    }
+
+    .abrir-menu,
+    .cerrar-menu {
+        display: block;
+        border: 0;
+        font-size: 2.25rem;
+        background-color: transparent;
+        cursor: pointer;
+        margin-left: 150px;
+        position: fixed;
+        top: 10;
+        right: 0;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .6);
+    }
+
+    .nav-link {
+        gap: -1rem;
+    }
+
+    .nav.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        align-items: end;
+        margin: 50px 0 0 0;
+        padding: 0;
+    }
+
+    .nav-list li {
+        margin-bottom: -70px;
+    }
+
+    .abrir-menu {
+        display: block;
+        color: var(--segundo-color);
+    }
+
+    .cerrar-menu {
+        opacity: 0;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .nav.active {
+        display: block;
+    }
+}

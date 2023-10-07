@@ -1,0 +1,21 @@
+Footer {
+    left: 0;
+    bottom: 0;
+    background-color: var(--segundo-color);
+    margin: 0 0 80px 450px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 920px) {
+    Footer {
+        display: inline-block;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    section {
+        margin: 0;
+        padding: 0;
+    }
+}

@@ -1,0 +1,41 @@
+.Servicios {
+    margin: 100px;
+    font-weight: 600;
+    font-family: var(--font-family-1);
+}
+
+.cajaServicios {
+    margin-top: 65px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.caja {
+    padding: 25px;
+    margin: 15px;
+    border: 2px solid rgba(1, 53, 77, 0.7);
+}
+
+.Servicios img,
+h2 {
+    width: 65px;
+    height: 65px;
+    color: var(--primer-color);
+}
+
+.parrafo {
+    font-size: 18px;
+    text-align: justify;
+    padding-left: 30px;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 920px) {
+    .cajaServicios {
+        display: inline-block;
+        width: 20.875rem;
+        margin: 0;
+        padding: 0;
+    }
+}

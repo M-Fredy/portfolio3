@@ -1,0 +1,90 @@
+.Contactos {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+    margin: 100px;
+    font-weight: 600;
+    font-family: var(--font-family-1);
+}
+
+.left {
+    margin: 5px 0 0 10px;
+    font-size: 18px;
+    color: var(--primer-color);
+}
+
+.right {
+    margin-left: 120px;
+}
+
+.izq-der {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-right: 15%;
+}
+
+input {
+    display: block;
+    margin: 0 25px 25px 0;
+    width: 420px;
+    height: 55px;
+}
+
+textarea {
+    margin-bottom: 10px;
+    width: 420px;
+    height: 136px;
+}
+
+.botonContacto {
+    background-color: var(--primer-color);
+    color: white;
+    font-size: 18px;
+    padding: 22px 80px;
+    cursor: pointer;
+    margin: 45px 0 40px 160px;
+    border: 2px solid var(--primer-color);
+}
+
+.botonContacto:hover {
+    background-color: #fff;
+    color: black;
+}
+
+::placeholder {
+    color: black;
+    font-size: 18px;
+    padding: 10px 10px;
+    font-weight: 600;
+    font-family: var(--font-family-1);
+}
+
+.redesSociales img {
+    width: 95px;
+    height: 95px;
+    padding: 20px;
+
+}
+
+.redesSociales {
+    text-align: center;
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 920px) {
+
+    .Contactos,
+    .izq-der {
+        display: inline-block;
+        text-align: center;
+        margin: 0;
+        max-width: 23rem;
+        margin-left: -42px;
+    }
+
+    .botonContacto {
+        margin: 0;
+    }
+}
